@@ -1,47 +1,36 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Shivprasad Mane - Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Personal portfolio website built with Next.js, Tailwind CSS, and shadcn/ui.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## Features
 
-# Features
+- Responsive single-page portfolio
+- Sections for About, Experience, Skills, Projects, and Education
+- Blog support using MDX content
+- Dark/light mode support
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## Tech Stack
 
-# Getting Started Locally
+- Next.js 14
+- React + TypeScript
+- Tailwind CSS
+- shadcn/ui + Magic UI
 
-1. Clone this repository to your local machine:
+## Local Development
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+```bash
+pnpm install
+pnpm dev
+```
 
-2. Move to the cloned directory
+Open `http://localhost:3000`.
 
-   ```bash
-   cd portfolio
-   ```
+## Content Updates
 
-3. Install dependencies:
+- Main portfolio data: `src/data/resume.tsx`
+- Blog posts: `content/*.mdx`
+- Static images/icons: `public/`
 
-   ```bash
-   pnpm install
-   ```
+## License
 
-4. Start the local Server:
-
-   ```bash
-   pnpm dev
-   ```
-
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+This project uses the MIT License. See `LICENSE`.

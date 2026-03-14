@@ -19,11 +19,24 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon.png", type: "image/png", sizes: "64x64" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
     siteName: `${DATA.name}`,
+    images: [
+      {
+        url: DATA.avatarUrl,
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -41,6 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
+    images: [DATA.avatarUrl],
   },
   verification: {
     google: "",
